@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF310A971D4AD18100F4177A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF310A961D4AD18100F4177A /* AppDelegate.swift */; };
+		AF310A991D4AD18100F4177A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF310A981D4AD18100F4177A /* ViewController.swift */; };
+		AF310A9C1D4AD18100F4177A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF310A9A1D4AD18100F4177A /* Main.storyboard */; };
+		AF310A9E1D4AD18100F4177A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF310A9D1D4AD18100F4177A /* Assets.xcassets */; };
+		AF310AA11D4AD18100F4177A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF310A9F1D4AD18100F4177A /* LaunchScreen.storyboard */; };
+		AF310AAC1D4AD18200F4177A /* PCRemoteControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF310AAB1D4AD18200F4177A /* PCRemoteControlTests.swift */; };
+		AF310AB71D4AD18200F4177A /* PCRemoteControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF310AB61D4AD18200F4177A /* PCRemoteControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF310AA81D4AD18200F4177A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF310A8B1D4AD18100F4177A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF310A921D4AD18100F4177A;
+			remoteInfo = PCRemoteControl;
+		};
+		AF310AB31D4AD18200F4177A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF310A8B1D4AD18100F4177A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF310A921D4AD18100F4177A;
+			remoteInfo = PCRemoteControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF310A931D4AD18100F4177A /* PCRemoteControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCRemoteControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF310A961D4AD18100F4177A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF310A981D4AD18100F4177A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF310A9B1D4AD18100F4177A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF310A9D1D4AD18100F4177A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF310AA01D4AD18100F4177A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF310AA21D4AD18100F4177A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF310AA71D4AD18200F4177A /* PCRemoteControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCRemoteControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF310AAB1D4AD18200F4177A /* PCRemoteControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCRemoteControlTests.swift; sourceTree = "<group>"; };
+		AF310AAD1D4AD18200F4177A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF310AB21D4AD18200F4177A /* PCRemoteControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCRemoteControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF310AB61D4AD18200F4177A /* PCRemoteControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCRemoteControlUITests.swift; sourceTree = "<group>"; };
+		AF310AB81D4AD18200F4177A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF310A901D4AD18100F4177A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF310AA41D4AD18200F4177A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF310AAF1D4AD18200F4177A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF310A8A1D4AD18100F4177A = {
+			isa = PBXGroup;
+			children = (
+				AF310A951D4AD18100F4177A /* PCRemoteControl */,
+				AF310AAA1D4AD18200F4177A /* PCRemoteControlTests */,
+				AF310AB51D4AD18200F4177A /* PCRemoteControlUITests */,
+				AF310A941D4AD18100F4177A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF310A941D4AD18100F4177A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF310A931D4AD18100F4177A /* PCRemoteControl.app */,
+				AF310AA71D4AD18200F4177A /* PCRemoteControlTests.xctest */,
+				AF310AB21D4AD18200F4177A /* PCRemoteControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF310A951D4AD18100F4177A /* PCRemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				AF310A961D4AD18100F4177A /* AppDelegate.swift */,
+				AF310A981D4AD18100F4177A /* ViewController.swift */,
+				AF310A9A1D4AD18100F4177A /* Main.storyboard */,
+				AF310A9D1D4AD18100F4177A /* Assets.xcassets */,
+				AF310A9F1D4AD18100F4177A /* LaunchScreen.storyboard */,
+				AF310AA21D4AD18100F4177A /* Info.plist */,
+			);
+			path = PCRemoteControl;
+			sourceTree = "<group>";
+		};
+		AF310AAA1D4AD18200F4177A /* PCRemoteControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF310AAB1D4AD18200F4177A /* PCRemoteControlTests.swift */,
+				AF310AAD1D4AD18200F4177A /* Info.plist */,
+			);
+			path = PCRemoteControlTests;
+			sourceTree = "<group>";
+		};
+		AF310AB51D4AD18200F4177A /* PCRemoteControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF310AB61D4AD18200F4177A /* PCRemoteControlUITests.swift */,
+				AF310AB81D4AD18200F4177A /* Info.plist */,
+			);
+			path = PCRemoteControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF310A921D4AD18100F4177A /* PCRemoteControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF310ABB1D4AD18200F4177A /* Build configuration list for PBXNativeTarget "PCRemoteControl" */;
+			buildPhases = (
+				AF310A8F1D4AD18100F4177A /* Sources */,
+				AF310A901D4AD18100F4177A /* Frameworks */,
+				AF310A911D4AD18100F4177A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCRemoteControl;
+			productName = PCRemoteControl;
+			productReference = AF310A931D4AD18100F4177A /* PCRemoteControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF310AA61D4AD18200F4177A /* PCRemoteControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF310ABE1D4AD18200F4177A /* Build configuration list for PBXNativeTarget "PCRemoteControlTests" */;
+			buildPhases = (
+				AF310AA31D4AD18200F4177A /* Sources */,
+				AF310AA41D4AD18200F4177A /* Frameworks */,
+				AF310AA51D4AD18200F4177A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF310AA91D4AD18200F4177A /* PBXTargetDependency */,
+			);
+			name = PCRemoteControlTests;
+			productName = PCRemoteControlTests;
+			productReference = AF310AA71D4AD18200F4177A /* PCRemoteControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF310AB11D4AD18200F4177A /* PCRemoteControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF310AC11D4AD18200F4177A /* Build configuration list for PBXNativeTarget "PCRemoteControlUITests" */;
+			buildPhases = (
+				AF310AAE1D4AD18200F4177A /* Sources */,
+				AF310AAF1D4AD18200F4177A /* Frameworks */,
+				AF310AB01D4AD18200F4177A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF310AB41D4AD18200F4177A /* PBXTargetDependency */,
+			);
+			name = PCRemoteControlUITests;
+			productName = PCRemoteControlUITests;
+			productReference = AF310AB21D4AD18200F4177A /* PCRemoteControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF310A8B1D4AD18100F4177A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Michael Kratzer";
+				TargetAttributes = {
+					AF310A921D4AD18100F4177A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AF310AA61D4AD18200F4177A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AF310A921D4AD18100F4177A;
+					};
+					AF310AB11D4AD18200F4177A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AF310A921D4AD18100F4177A;
+					};
+				};
+			};
+			buildConfigurationList = AF310A8E1D4AD18100F4177A /* Build configuration list for PBXProject "PCRemoteControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF310A8A1D4AD18100F4177A;
+			productRefGroup = AF310A941D4AD18100F4177A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF310A921D4AD18100F4177A /* PCRemoteControl */,
+				AF310AA61D4AD18200F4177A /* PCRemoteControlTests */,
+				AF310AB11D4AD18200F4177A /* PCRemoteControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF310A911D4AD18100F4177A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF310AA11D4AD18100F4177A /* LaunchScreen.storyboard in Resources */,
+				AF310A9E1D4AD18100F4177A /* Assets.xcassets in Resources */,
+				AF310A9C1D4AD18100F4177A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF310AA51D4AD18200F4177A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF310AB01D4AD18200F4177A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF310A8F1D4AD18100F4177A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF310A991D4AD18100F4177A /* ViewController.swift in Sources */,
+				AF310A971D4AD18100F4177A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF310AA31D4AD18200F4177A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF310AAC1D4AD18200F4177A /* PCRemoteControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF310AAE1D4AD18200F4177A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF310AB71D4AD18200F4177A /* PCRemoteControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF310AA91D4AD18200F4177A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF310A921D4AD18100F4177A /* PCRemoteControl */;
+			targetProxy = AF310AA81D4AD18200F4177A /* PBXContainerItemProxy */;
+		};
+		AF310AB41D4AD18200F4177A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF310A921D4AD18100F4177A /* PCRemoteControl */;
+			targetProxy = AF310AB31D4AD18200F4177A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF310A9A1D4AD18100F4177A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF310A9B1D4AD18100F4177A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF310A9F1D4AD18100F4177A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF310AA01D4AD18100F4177A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF310AB91D4AD18200F4177A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF310ABA1D4AD18200F4177A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF310ABC1D4AD18200F4177A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PCRemoteControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.twilight-productions.PCRemoteControl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF310ABD1D4AD18200F4177A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PCRemoteControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.twilight-productions.PCRemoteControl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF310ABF1D4AD18200F4177A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PCRemoteControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.twilight-productions.PCRemoteControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PCRemoteControl.app/PCRemoteControl";
+			};
+			name = Debug;
+		};
+		AF310AC01D4AD18200F4177A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PCRemoteControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.twilight-productions.PCRemoteControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PCRemoteControl.app/PCRemoteControl";
+			};
+			name = Release;
+		};
+		AF310AC21D4AD18200F4177A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PCRemoteControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.twilight-productions.PCRemoteControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PCRemoteControl;
+			};
+			name = Debug;
+		};
+		AF310AC31D4AD18200F4177A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PCRemoteControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.twilight-productions.PCRemoteControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PCRemoteControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF310A8E1D4AD18100F4177A /* Build configuration list for PBXProject "PCRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF310AB91D4AD18200F4177A /* Debug */,
+				AF310ABA1D4AD18200F4177A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF310ABB1D4AD18200F4177A /* Build configuration list for PBXNativeTarget "PCRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF310ABC1D4AD18200F4177A /* Debug */,
+				AF310ABD1D4AD18200F4177A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF310ABE1D4AD18200F4177A /* Build configuration list for PBXNativeTarget "PCRemoteControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF310ABF1D4AD18200F4177A /* Debug */,
+				AF310AC01D4AD18200F4177A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF310AC11D4AD18200F4177A /* Build configuration list for PBXNativeTarget "PCRemoteControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF310AC21D4AD18200F4177A /* Debug */,
+				AF310AC31D4AD18200F4177A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF310A8B1D4AD18100F4177A /* Project object */;
+}
